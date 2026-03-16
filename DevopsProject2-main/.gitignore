@@ -1,0 +1,59 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build outputs
+build/
+dist/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Terraform
+terraform_code/.terraform/
+terraform_code/*.tfstate
+terraform_code/*.tfstate.backup
+terraform_code/*.tfplan
+terraform_code/terraform.tfstate.lock.info
+*.tfstate.lock.info
+
+# Secrets and credentials
+*.pem
+*.key
+access.sh
+**/credentials
+**/.aws/
+
+# Logs
+logs/
+*.log
+
+# Trivy scan results
+trivy.txt
+
+# Temporary files
+tmp/
+temp/
+.cache/
+
+# Testing
+coverage/
+.nyc_output/
